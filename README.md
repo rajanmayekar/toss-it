@@ -5,8 +5,14 @@ Coin toss game, play on browser
 - Play as a single player
 - Play with friend - live
 
-Frontend app build on ionic http://ionicframework.com/
+About technology
+- Frontend app build on ionic http://ionicframework.com/
+- Backend Service build on node + socket http://socket.io/
 
-Backend Service build on node + socket http://socket.io/
-
--- IN PROGRESS --
+Setup and start appplication
+- Clone/download repository
+- run: npm install
+- run: bower install
+- run: npm start
+- open new tab and run: grunt start
+- On brwoser visit http://localhost:3000
