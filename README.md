@@ -15,4 +15,4 @@ Setup and start appplication
 - run: bower install
 - run: npm start
 - open new tab and run: grunt start
-- On brwoser visit http://localhost:3000
+- On browser visit http://localhost:3000
