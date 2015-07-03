@@ -1,0 +1,18 @@
+{
+  "name": "TossIT",
+  "version": "0.0.1",
+  "description": "Play toss individual or with remote friend",
+  "author": "rajan.mayekar@gmail.com",
+  "license": "MIT",
+  "start": "node ./service/server.js",
+  "scripts" : { "start" : "node ./service/server.js" },
+  "dependencies": {
+    "express": "~4.11.1",
+    "socket.io": "~1.3.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~3.2.0",
+    "grunt-devserver": "~0.6.0"
+  }
+}

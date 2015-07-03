@@ -1,0 +1,18 @@
+<ion-pane>
+	<ion-header-bar class="bar-stable">
+		<h1 class="title">TOSS IT</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="row" ng-if="gameActive">
+			<div class="col toss-live-status">
+				<div class="toss-live-status-msg" ng-bind="participantStatus">&nbsp;</div>
+			</div>
+		</div>
+
+		<toss-multiplayer-joiner ng-if="gameActive"></toss-multiplayer-joiner>
+		<div ng-if="!gameActive" class="toss-error-inactive">
+			<span>{{errorStatus}}</span>
+		</div>
+
+	</ion-content>	
+</ion-pane>
