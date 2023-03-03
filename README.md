@@ -1,6 +1,6 @@
 # Toss-It
 
-Coin toss game, play on browser
+Coin toss game, play on browser...
 
 - Play as a single player
 - Play with friend - live
